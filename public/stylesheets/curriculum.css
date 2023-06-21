@@ -144,3 +144,28 @@ height: 225;
      font-weight: bolder;
      margin-left: 220px;
 }
+.form_link{
+     border-radius: 5px;
+     display: flexbox;
+     background-color: aquamarine;
+     border-bottom: 5px solid #858585;
+     border: 5px;
+     padding: 3px;
+     color: black;
+     margin-right: -20px;
+     text-decoration: none;
+     font-weight: unset;
+     box-shadow: 0px 0px 10px 2px #414141;  
+     font-family: 'Inter', sans-serif;
+     transform: skewY(5deg); 
+     margin-bottom: 0;
+}
+
+.form_paragraph{
+     font-family: Arial, Helvetica, sans-serif;
+     transform: skewY(5deg); 
+     margin-bottom: 0;
+     color: #ffffff;
+
+}
+   

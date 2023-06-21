@@ -38,6 +38,9 @@ app.get('/views/curriculum.html', function(req, res){
   res.sendFile (__dirname + '/views/curriculum.html')
 })
 
+app.get('/views/curriculumen.html', function(req, res){
+  res.sendFile (__dirname + '/views/curriculumen.html')
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
