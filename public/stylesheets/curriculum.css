@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+ 
+body {
+ margin: 0;
+ padding: 0;
+ background: #CDCDCD;
+}
+
+.name {
+ width: 100%;
+ height: 300px;
+ background: #364156;
+ transform: skewY(-5deg); 
+
+}
+
+.name .content {
+ width: 50%;
+ height: 50%;
+ position: absolute;
+ left: 20%;
+}
+
+.name .content .p-1 {
+ color: #DFF8EB;
+ font-family: 'Inter', sans-serif;
+ font-weight: bolder;
+ font-size: 45px;
+ transform: skewY(5deg); 
+ margin-bottom: 0;
+}
+
+.name .content .p-2 {
+ color: #DFF8EB;
+ font-family: 'Inter', sans-serif;
+ font-size: 20px;
+ transform: skewY(5deg); 
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.name .img1{
+ position: absolute;
+ top: 20%;
+ right: 5%;
+ width: 150px;
+ height: 150px;
+ border-radius: 100%;
+ transform: skewY(5deg);
+ overflow: hidden;
+}
+
+.name .img1{
+width: 150px;
+height: 225;
+}
+
+
+.info {
+ width: 90%;
+ height: auto;
+ background: #364156;
+ margin: 5% auto;
+ padding: 15px;
+ border-radius: 20px; 
+}
+
+.info .tituloSeccion{
+ color: white;
+ font-family: 'Inter', sans-serif;
+ font-size: xx-large;
+ text-align: center;
+ font-weight: bolder;
+ border-bottom: 2px white dashed;
+}
+
+.info .tituloinfo {
+ color: #DFF8EB;
+ font-family: 'Inter', sans-serif;
+ font-weight: bolder;
+ font-size: large;   
+ display: inline; 
+ margin-right: 10px;
+}
+
+.info .infoinfo {
+ color: white;
+ font-family: 'Inter', sans-serif;
+ font-weight: bolder;
+ font-size: large;
+ display: inline;
+}
+
+.boton{
+ display: flex;
+ margin-left: -300px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ justify-content: center;
+ padding: 20px;
+}
+
+.btn-1{
+ display: inline-block;
+ background-color: aquamarine;
+ border: 0px;
+ padding: 10px;
+ color: black;
+ margin-right: -400px;
+ text-decoration: none;
+ font-weight: bolder;
+}
+
+.btn-2{
+    display: inline-block;
+    background-color: aquamarine;
+    border: 0px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: -330px;
+}
+
+.btn-3{
+     display: inline-block;
+     background-color: aquamarine;
+     border: 0px;
+     padding: 10px;
+     color: black;
+     text-decoration: none;
+     font-weight: bolder;
+     margin-left: 400px;
+}
+.btn-4{
+     display: inline-block;
+     background-color: aquamarine;
+     border: 0px;
+     padding: 10px;
+     color: black;
+     text-decoration: none;
+     font-weight: bolder;
+     margin-left: 220px;
+}
